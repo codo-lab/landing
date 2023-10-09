@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inconsolata", monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 720px);
+  padding-right: calc(50% - 720px);
+}
+
+.button {
+  padding: 15px 28px;
+  border-radius: 20px;
+  border: 1px solid #8B8CAD;
+  background: #32333F;
+}
+
+.header {
+  background: linear-gradient(270deg, #1E042B 0.37%, #04082D 99%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 38px;
+  padding-bottom: 29px;
+}
+.header__menu {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+.header__logo {
+  color: #FFF;
+  font-family: Inconsolata;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.header__link {
+  text-decoration: none;
+  color: #8B8CAD;
+  font-family: Inconsolata;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.header__button {
+  display: flex;
+  gap: 30px;
+}
+.header__autorize {
+  color: #FFF;
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header__first {
+  color: #FFF;
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(90deg, #37419D 0.19%, #9356B6 71.72%, #B75EBF 99.78%);
+}
+
+.top {
+  background: linear-gradient(270deg, #1E042B 0.37%, #04082D 99%);
+  padding-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top__header {
+  width: 856px;
+  text-align: center;
+  color: #FFF;
+  font-family: Inconsolata;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 43px;
+}
+.top__span {
+  background: linear-gradient(90deg, #4856CE 10.4%, #DE6FE8 47.84%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.top__click {
+  text-align: center;
+  margin-bottom: 85px;
+}
+.top__button {
+  background: linear-gradient(90deg, #37419D 0.19%, #9356B6 71.72%, #B75EBF 99.78%);
+  color: #FFF;
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.top__text {
+  margin-top: 60px;
+  margin-bottom: 25px;
+  color: #4B56CF;
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 132.469%;
+  /* 33.117px */
+  letter-spacing: -2px;
+}
+.top__logos {
+  display: flex;
+  gap: 212px;
+}
+
+.content {
+  padding-top: 132px;
+  display: flex;
+  flex-direction: column;
+  gap: 166px;
+  padding-bottom: 110px;
+}
+.content__title {
+  color: #4B56CF;
+  text-align: left;
+  font-family: Inconsolata;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 132.469%;
+  /* 29.143px */
+  letter-spacing: 2.09px;
+  margin-bottom: 20px;
+}
+.content__header {
+  color: #000;
+  font-family: Inconsolata;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 132.469%;
+  /* 59.611px */
+  letter-spacing: -3.6px;
+  margin-bottom: 75px;
+}
+.content__span {
+  background: linear-gradient(90deg, #4B56CF 56.66%, #9356B6 96.79%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inconsolata;
+  line-height: 132.469%;
+  letter-spacing: -3.6px;
+}
+.content__info {
+  display: flex;
+  justify-content: space-between;
+  gap: 81px;
+}
+.content__flex {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.content__card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.content__heading {
+  color: #000;
+  font-family: Inconsolata;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 132.469%;
+  /* 29.143px */
+}
+.content__text {
+  color: #000;
+  font-family: Inconsolata;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.work {
+  padding-top: 89px;
+  padding-bottom: 96px;
+  background: linear-gradient(270deg, #1E042B 0.37%, #04082D 99%);
+}
+.work__text {
+  color: #4B56CF;
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 132.469%;
+  /* 29.143px */
+  letter-spacing: 2.09px;
+  margin-bottom: 20px;
+}
+.work__header {
+  color: #FFF;
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 100px;
+}
+.work__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.work__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+.work__heading {
+  color: #FFF;
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.work__info {
+  color: #8B8CAD;
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 132.469%;
+  /* 29.143px */
+  letter-spacing: -1.76px;
+}
+
+.why-codolab {
+  padding-top: 96px;
+}
+.why-codolab__text {
+  color: #4B56CF;
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 132.469%;
+  /* 29.143px */
+  letter-spacing: 2.09px;
+  margin-bottom: 50px;
+}
+.why-codolab__header {
+  color: #000;
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 120px;
+}
+.why-codolab__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 330px;
+}
+.why-codolab__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.why-codolab__heading {
+  color: #000;
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.why-codolab__info {
+  color: #7B7C9D;
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 132.469%;
+  /* 29.143px */
+}
+.why-codolab__flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.why-codolab__img {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
