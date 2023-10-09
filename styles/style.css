@@ -1,10 +1,18 @@
+@keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Inconsolata", monospace;
+  font-family: "Inter", sans-serif;
 }
 
 a {
@@ -21,6 +29,9 @@ a {
   border-radius: 20px;
   border: 1px solid #8B8CAD;
   background: #32333F;
+}
+.button:hover {
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
 .header {
@@ -40,7 +51,7 @@ a {
 }
 .header__logo {
   color: #FFF;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 40px;
   font-style: normal;
   font-weight: 900;
@@ -49,11 +60,14 @@ a {
 .header__link {
   text-decoration: none;
   color: #8B8CAD;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+.header__link:hover {
+  color: #FFF;
 }
 .header__button {
   display: flex;
@@ -62,7 +76,7 @@ a {
 .header__autorize {
   color: #FFF;
   text-align: center;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -71,7 +85,7 @@ a {
 .header__first {
   color: #FFF;
   text-align: center;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -82,6 +96,7 @@ a {
 .top {
   background: linear-gradient(270deg, #1E042B 0.37%, #04082D 99%);
   padding-top: 110px;
+  padding-bottom: 63px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,7 +105,7 @@ a {
   width: 856px;
   text-align: center;
   color: #FFF;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -111,7 +126,7 @@ a {
   background: linear-gradient(90deg, #37419D 0.19%, #9356B6 71.72%, #B75EBF 99.78%);
   color: #FFF;
   text-align: center;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -119,10 +134,10 @@ a {
 }
 .top__text {
   margin-top: 60px;
-  margin-bottom: 25px;
+  margin-bottom: 80px;
   color: #4B56CF;
   text-align: center;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
@@ -133,6 +148,9 @@ a {
 .top__logos {
   display: flex;
   gap: 212px;
+}
+.top__logo:hover svg path {
+  fill: #FFF;
 }
 
 .content {
@@ -145,7 +163,7 @@ a {
 .content__title {
   color: #4B56CF;
   text-align: left;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 22px;
   font-style: normal;
   font-weight: 800;
@@ -156,7 +174,7 @@ a {
 }
 .content__header {
   color: #000;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 45px;
   font-style: normal;
   font-weight: 800;
@@ -170,7 +188,7 @@ a {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Inconsolata;
+  font-family: Inter;
   line-height: 132.469%;
   letter-spacing: -3.6px;
 }
@@ -191,7 +209,7 @@ a {
 }
 .content__heading {
   color: #000;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -200,7 +218,7 @@ a {
 }
 .content__text {
   color: #000;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -215,7 +233,7 @@ a {
 .work__text {
   color: #4B56CF;
   text-align: center;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 22px;
   font-style: normal;
   font-weight: 800;
@@ -227,7 +245,7 @@ a {
 .work__header {
   color: #FFF;
   text-align: center;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -247,7 +265,7 @@ a {
 .work__heading {
   color: #FFF;
   text-align: center;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 33px;
   font-style: normal;
   font-weight: 700;
@@ -256,7 +274,7 @@ a {
 .work__info {
   color: #8B8CAD;
   text-align: center;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 22px;
   font-style: normal;
   font-weight: 800;
@@ -271,7 +289,7 @@ a {
 .why-codolab__text {
   color: #4B56CF;
   text-align: center;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 22px;
   font-style: normal;
   font-weight: 800;
@@ -283,7 +301,7 @@ a {
 .why-codolab__header {
   color: #000;
   text-align: center;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 45px;
   font-style: normal;
   font-weight: 900;
@@ -304,7 +322,7 @@ a {
 .why-codolab__heading {
   color: #000;
   text-align: center;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
@@ -313,7 +331,7 @@ a {
 .why-codolab__info {
   color: #7B7C9D;
   text-align: center;
-  font-family: Inconsolata;
+  font-family: Inter;
   font-size: 22px;
   font-style: normal;
   font-weight: 800;
