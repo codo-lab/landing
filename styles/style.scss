@@ -30,6 +30,11 @@
 body {
     // font-family: 'Inconsolata', monospace;
     font-family: 'Inter', sans-serif;
+
+}
+
+.site {
+    scroll-behavior: smooth;
 }
 
 a {
@@ -53,6 +58,10 @@ a {
 }
 
 .header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
     background: linear-gradient(270deg, #1E042B 0.37%, #04082D 99%);
     ;
     display: flex;
@@ -60,6 +69,7 @@ a {
     align-items: center;
     padding-top: 38px;
     padding-bottom: 29px;
+
 
     &__menu {
         display: flex;
@@ -121,10 +131,10 @@ a {
         line-height: normal;
         background: linear-gradient(90deg, #37419D 0.19%, #9356B6 71.72%, #B75EBF 99.78%);
     }
-
 }
 
 .top {
+    margin-top: 60px;
     background: linear-gradient(270deg, #1E042B 0.37%, #04082D 99%);
     padding-top: 110px;
     padding-bottom: 63px;
@@ -423,4 +433,8 @@ a {
     &__img {
         display: block;
     }
+}
+
+.test {
+    margin-top: 200px;
 }
