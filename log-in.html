@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration
-    </title>
+    <title>Log In</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;700;800;900&display=swap"
@@ -13,13 +12,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
     <div class="site">
         <header class="header center">
-            <a href="../index.html" class="header__logo">Codolab</a>
+            <a href="index.html" class="header__logo">Codolab</a>
             <ul class="header__menu">
                 <li><a class="header__link" href="#">О проекте</a></li>
                 <li><a class="header__link" href="#">Демонстрация</a></li>
@@ -29,15 +28,19 @@
                 <a href="log-in.html" class="header__autorize button">Авторизация</a>
                 <a href="register.html" class="header__first button">Узнать первым</a>
             </div>
+
         </header>
-        <section class="test center">
-            <h1 class="test__content">Регистрация</h1>
-            <form action="#">
-                <input class="input" type="text" placeholder="email">
-                <input class="input" type="password" placeholder="password">
-                <button class="header__first button" type="submit">Регистрация</button>
+        <section class="input center">
+            <h1 class="input__content">Авторизация</h1>
+            <form class="input__form" action="profile.html">
+                <input class="input__style" type="text" placeholder="login">
+                <input class="input__style" type="password" placeholder="password">
+                <button class="header__first button" type="submit">Войти</button>
             </form>
         </section>
+        <div class="why-codolab__flex">
+            <img class="why-codolab__img" src="img/created.png" alt="created">
+        </div>
     </div>
 </body>
 

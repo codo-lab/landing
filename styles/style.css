@@ -356,6 +356,77 @@ a {
   display: block;
 }
 
-.test {
-  margin-top: 200px;
+.input {
+  padding-top: 200px;
+  background: linear-gradient(270deg, #1E042B 0.37%, #04082D 99%);
+  height: 80vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.input__content {
+  padding-bottom: 45px;
+  color: #FFF;
+}
+.input__form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.input__style {
+  width: 300px;
+  height: 45px;
+  padding: 0 50px;
+  font-size: 20px;
+  border-radius: 1rem;
+}
+.input__style::-moz-placeholder {
+  color: #37419D;
+}
+.input__style::placeholder {
+  color: #37419D;
+}
+
+.register {
+  padding-top: 200px;
+  background: linear-gradient(270deg, #1E042B 0.37%, #04082D 99%);
+  height: 80vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.register__content {
+  padding-bottom: 45px;
+  color: #FFF;
+}
+.register__form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.register__style {
+  width: 300px;
+  height: 45px;
+  padding: 0 50px;
+  font-size: 20px;
+  border-radius: 1rem;
+}
+.register__style::-moz-placeholder {
+  color: #37419D;
+}
+.register__style::placeholder {
+  color: #37419D;
+}
+
+.hello {
+  padding-top: 200px;
+  text-align: center;
+  background: linear-gradient(270deg, #1E042B 0.37%, #04082D 99%);
+  height: 75vh;
+}
+.hello__title {
+  color: #B75EBF;
+  font-size: 70px;
 }/*# sourceMappingURL=style.css.map */
