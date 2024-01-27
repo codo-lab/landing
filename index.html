@@ -18,13 +18,13 @@
 </head>
 
 <body>
-    <div class="site">
+    <div id="main" class="site">
         <header class="header center">
-            <a href="index.html" class="header__logo">Codolab</a>
+            <a href="#main" class="header__logo">Codolab</a>
             <ul class="header__menu">
-                <li><a class="header__link" href="#">О проекте</a></li>
-                <li><a class="header__link" href="#">Демонстрация</a></li>
-                <li><a class="header__link" href="#">Контакты </a></li>
+                <li><a class="header__link" href="#section1">О проекте</a></li>
+                <li><a class="header__link" href="#section2">Демонстрация</a></li>
+                <li><a class="header__link" href="#section3">Контакты </a></li>
             </ul>
 
             <nav class="main-nav">
@@ -49,14 +49,15 @@
                                 <label class="image-replace cd-email" for="signin-email">E-mail</label>
                                 <input class="full-width has-padding has-border" id="signin-email" type="email"
                                     placeholder="E-mail">
-                                <span class="cd-error-message">Здесь сообщение об ошибке!</span>
+                                <span class="cd-error-message">Пожалуйста, введите корректный адрес электронной
+                                    почты</span>
                             </p>
                             <p class="fieldset">
                                 <label class="image-replace cd-password" for="signin-password">Пароль</label>
                                 <input class="full-width has-padding has-border" id="signin-password" type="text"
                                     placeholder="Пароль">
                                 <a href="#0" class="hide-password">Скрыть</a>
-                                <span class="cd-error-message">Здесь сообщение об ошибке!</span>
+                                <span class="cd-error-message">Пожалуйста, введите корректный пароль</span>
                             </p>
                             <p class="fieldset">
                                 <input type="checkbox" id="remember-me" checked>
@@ -75,27 +76,28 @@
                                 <label class="image-replace cd-username" for="signup-username">Имя пользователя</label>
                                 <input class="full-width has-padding has-border" id="signup-username" type="text"
                                     placeholder="Имя пользователя">
-                                <span class="cd-error-message">Здесь сообщение об ошибке!</span>
+                                <span class="cd-error-message">Пожалуйста, введите корректное имя пользователя</span>
                             </p>
                             <p class="fieldset">
                                 <label class="image-replace cd-email" for="signup-email">E-mail</label>
                                 <input class="full-width has-padding has-border" id="signup-email" type="email"
                                     placeholder="E-mail">
-                                <span class="cd-error-message">Здесь сообщение об ошибке!</span>
+                                <span class="cd-error-message">Пожалуйста, введите корректный адрес электронной
+                                    почты</span>
                             </p>
                             <p class="fieldset">
                                 <label class="image-replace cd-password" for="signup-password">Пароль</label>
                                 <input class="full-width has-padding has-border" id="signup-password" type="text"
                                     placeholder="Пароль">
                                 <a href="#0" class="hide-password">Скрыть</a>
-                                <span class="cd-error-message">Здесь сообщение об ошибке!</span>
+                                <span class="cd-error-message">Пожалуйста, введите корректный пароль</span>
                             </p>
                             <p class="fieldset">
                                 <label class="image-replace cd-password" for="signup-password">Повторите пароль</label>
                                 <input class="full-width has-padding has-border" id="signup-password" type="text"
                                     placeholder="Повторите пароль">
                                 <a href="#0" class="hide-password">Скрыть</a>
-                                <span class="cd-error-message">Здесь сообщение об ошибке!</span>
+                                <span class="cd-error-message">Пароли не совпадают</span>
                             </p>
                             <p class="fieldset">
                                 <input type="checkbox" id="accept-terms">
@@ -115,7 +117,8 @@
                                 <label class="image-replace cd-email" for="reset-email">E-mail</label>
                                 <input class="full-width has-padding has-border" id="reset-email" type="email"
                                     placeholder="E-mail">
-                                <span class="cd-error-message">Здесь сообщение об ошибке!</span>
+                                <span class="cd-error-message">Пожалуйста, введите корректный адрес электронной
+                                    почты</span>
                             </p>
                             <p class="fieldset">
                                 <input class="full-width has-padding" type="submit" value="Восстановить пароль">
@@ -166,7 +169,7 @@
                     </svg></a>
             </div>
         </section>
-        <section class="content center">
+        <section id="section1" class="content center">
             <div class="content__item">
                 <p class="content__title">ПРОБЛЕМА</p>
                 <h2 class="content__header">
@@ -324,7 +327,7 @@
                 </div>
             </div>
         </section>
-        <section class="work center">
+        <section id="section2" class="work center">
             <p class="work__text">КАК ЭТО РАБОТАЕТ</p>
             <h2 class="work__header">Три шага для автоматизации потоков данных</h2>
             <div class="work__grid">
@@ -363,7 +366,7 @@
                 </div>
             </div>
         </section>
-        <section class="why-codolab  center">
+        <section id="section3" class="why-codolab  center">
             <p class="why-codolab__text">ПОЧЕМУ CODOLAB</p>
             <h2 class="why-codolab__header">Codolab — это современный способ преобразования ваших данных прямо в облаке.
             </h2>
